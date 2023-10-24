@@ -1,0 +1,38 @@
+/* Change the background color of the header */
+header {
+  background-color: #007bff;
+  color: white;
+}
+
+/* Style the search input box */
+#search-box {
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Style the search button */
+#searchButton {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Customize the appearance of searched cities buttons */
+#searchedCities button {
+  background-color: #f5a623;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Add additional custom styles as needed */
