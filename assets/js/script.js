@@ -133,7 +133,7 @@ function displayWeather(currentWeatherData, forecastData) {
   var forecastList = forecastData.list;
   forecastContainer.innerHTML = ""; // Clear previous forecast data
 
-  for (var i = 0; i < forecastList.length; i++) {
+  for (var i = 0; i < forecastList.length; i += 8) {
     var forecastItem = forecastList[i];
     var forecastTime = forecastItem.dt_txt;
     var forecastTemperature = forecastItem.main.temp;
