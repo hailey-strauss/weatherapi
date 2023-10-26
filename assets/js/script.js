@@ -147,10 +147,11 @@ function displayWeather(currentWeatherData, forecastData) {
     var forecastWindSpeed = forecastItem.wind.speed;
     var forecastHumidity = forecastItem.main.humidity;
     var icon = forecastList[i].weather[0].icon;
-    iconElement.src = `https://openweathermap.org/img/wn/${icon}.png`;
     var forecastCard = document.createElement("div");
     forecastCard.classList.add("forecast-card");
-    forecastCard.innerHTML = `
+    forecastCard.innerHTML = "";
+    var iconURL = `https://openweathermap.org/img/wn/${icon}.png`;
+    forecastCard.innerHTML = `<img class="icon" src="${iconURL}" alt="weather icon" />
         <h4>${forecastTime}</h4>
         <p>Temperature: ${forecastTemperature}°F</p>
         <p>Wind: ${forecastWindSpeed} mph</p>
