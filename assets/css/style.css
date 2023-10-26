@@ -25,12 +25,12 @@ header {
 
 /* Customize the appearance of searched cities buttons */
 #searchedCities button {
-  background-color: #f5a623;
+  background-color: #82e0aa;
   color: white;
   border: none;
   border-radius: 5px;
   margin: 5px;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 20px;
   cursor: pointer;
 }
