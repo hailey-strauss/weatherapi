@@ -6,11 +6,12 @@ A weather dashboard is a user interface or web application that provides a compr
 
 ## Usage
 
-Deployment Link: https://hailey-strauss.github.io/challenge5/
+Deployment Link: https://hailey-strauss.github.io/weatherdashboard/
+Github Repository Link: https://github.com/hailey-strauss/weatherdashboard
 
 Here are a couple of screenshots of what the weekly planner looks like.
-![screenshot](/assets/img/plan.png)
-![screenshot](/assets/img/planner.png)
+![screenshot](/assets/img/weatherdash.png)
+![screenshot](/assets/img/forecast.png)
 
 ## License
 
