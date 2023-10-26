@@ -68,11 +68,15 @@ function displayWeather(data) {
   var temperature = data.main.temp;
   var windSpeed = data.wind.speed;
   var humidity = data.main.humidity;
+  var icon = currentWeatherData.weather[0].icon;
 
   cityTitle.textContent = cityName;
   temperatureElement.textContent = temperature + "°F";
   windElement.textContent = "Wind: " + windSpeed + " mph";
   humidityElement.textContent = "Humidity: " + humidity + "%";
+}
+function myFunction() {
+  document.getElementById("myImg").src = "hackanm.gif";
 }
 function searchWeather(city) {
   var currentWeatherApiKey = "7122c388f26a175ce76367c47d174de3"; // Replace with your current weather API key
