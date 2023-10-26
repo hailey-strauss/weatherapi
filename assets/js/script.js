@@ -188,3 +188,11 @@ function saveCity(cityToSearch) {
 function saveSearchedCities() {
   var savedCities = localStorage.getItem("savedCities");
 }
+function setCurrentTime() {
+  function updateTime() {
+    let currentTime = dayjs().format("MMM DD, YYYY [at] hh:mm a"); // Use 'hh:mm a' format string
+    document.getElementById("currentTime").textContent = currentTime;
+  }
+  updateTime();
+  setInterval(updateTime, 1000);
+}
